@@ -20,6 +20,7 @@ var remainder = 13 % 3                    // 1
 ```
 
 **⚠️ Important Note:** Swift enforces strict type safety. You cannot directly perform arithmetic operations between different numeric types (e.g., mixing Double and Int).
+**📝Note:** Swift also has a .isMultipleOf(of: Int ) function to check if a number is mutiple of something.
 
 
 ## 🔄 Operator Overloading
@@ -83,6 +84,7 @@ let first = Sizes.small
 let second = Sizes.large
 first < second  // true
 ```
+**⚠️ Important Note:** You cant compare double - int or string - int etc ! 
 
 ## 🔀 Conditional Statements
 Swift provides powerful ways to control program flow based on conditions.
@@ -117,6 +119,7 @@ if age1 > 18 || age2 > 18 {
 
 ## 🎲 Ternary Operator
 A concise way to write simple conditional expressions.
+condition (true or false ) ? expression1 ( if true) : expression2 ( if false )
 
 ```swift
 let age = 12
@@ -141,9 +144,13 @@ default:
     print("Enjoy your day!")
 }
 ```
+**⚠️ Important Note:** default is required to ensure all cases are covered
+**⚠️ Important Note:** fallthrough: Swift will only run the code inside each case. If you want execution to continue on to the next case, use the fallthrough keyword
 
 ## 📊 Range Operators
 Swift offers two range operators for creating sequences.
+ x..<y --> creates ranges up to but excluding the final value(y) = [x, y)
+ x...y --> creates ranges up to and including the final value(y) = [x, y]
 
 ```swift
 let score = 85
