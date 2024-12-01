@@ -117,7 +117,7 @@ if age1 > 18 || age2 > 18 {
 ```
 
 ## 🎲 Ternary Operator
-A concise way to write simple conditional expressions.
+A concise way to write simple conditional expressions. <br />
 condition (true or false ) ? expression1 ( if true) : expression2 ( if false )
 
 ```swift
