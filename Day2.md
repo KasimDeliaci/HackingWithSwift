@@ -105,7 +105,7 @@ func getUserInfo() -> (name: String, age: Int, isActive: Bool) {
     return ("John Doe", 30, true)
 }
 
-let (username, userAge, _) = getUserInfo()
+let (username, userAge, userActive) = getUserInfo()
 ```
 
 ## 📖 Dictionaries
