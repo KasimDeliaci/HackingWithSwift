@@ -147,8 +147,9 @@ default:
 **⚠️ Important Note:** fallthrough: Swift will only run the code inside each case. If you want execution to continue on to the next case, use the fallthrough keyword
 
 ## 📊 Range Operators
-Swift offers two range operators for creating sequences.
+Swift offers two range operators for creating sequences.<br />
  x..<y --> creates ranges up to but excluding the final value(y) = [x, y)
+ <br />
  x...y --> creates ranges up to and including the final value(y) = [x, y]
 
 ```swift
