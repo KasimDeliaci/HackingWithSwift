@@ -209,5 +209,3 @@ let specificPlanet = Planet(rawValue: 2)   // venus
 - Dictionaries: Key-value pair collections
 - Enums: Structured, type-safe grouping of related values
 
-
-**Happy Coding!** Mastering these data types will elevate your Swift programming skills to the next level. 🍏📱
