@@ -200,7 +200,7 @@ enum Planet: Int {
 let earthRawValue = Planet.earth.rawValue  // 3
 let specificPlanet = Planet(rawValue: 2)   // venus
 ```
-⚠️ if you dont explicitly set the firsr value it will count from 0
+⚠️ if you dont explicitly set the first value, it will count from 0
 
 ## 🚀 Key Takeaways
 - Arrays: Ordered, indexed collections
