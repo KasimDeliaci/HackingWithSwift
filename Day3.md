@@ -144,7 +144,7 @@ default:
     print("Enjoy your day!")
 }
 ```
-**⚠️ Important Note:** default is required to ensure all cases are covered
+**⚠️ Important Note:** default is required to ensure all cases are covered.
 **⚠️ Important Note:** fallthrough: Swift will only run the code inside each case. If you want execution to continue on to the next case, use the fallthrough keyword
 
 ## 📊 Range Operators
