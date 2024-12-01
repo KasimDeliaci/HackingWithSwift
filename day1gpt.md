@@ -1,28 +1,25 @@
-
-
 # Swift Temelleri: Değişkenler, Sabitler ve Veri Türleri
 
-Swift, **type-safe** (tip güvenli) bir dil olduğu için her bir değişkenin belirli bir veri türüne sahip olması gerekir. Bu yazıda, değişkenler ve sabitlerle ilgili temel bilgileri paylaşacağım.
+Bu dokümanda Swift dilinin temel özelliklerini, değişkenleri, sabitleri ve farklı veri türlerini başlıklar altında inceleyeceğiz.
+
+---
+
+## Giriş
+Swift, **type-safe** bir dildir, yani her değişkenin belirli bir türü olmalıdır. Bu yapı, kodun güvenliğini ve okunabilirliğini artırır.
+
+---
 
 ## Değişkenler (Variables)
-Değişkenler `var` anahtar kelimesiyle tanımlanır.
+Swift'te değişkenler `var` anahtar kelimesiyle tanımlanır ve türleri belirlenir.
 
 ```swift
 var greeting = "Hello, playground"
-
-Örnekler:
-
-	•	Tam Sayılar (Integer):
-
 var age = 45
-
-	•	Okunabilir Sayılar: (Alt çizgilerle daha okunabilir hâle gelir.)
-
-var population = 8_000_000
+var population = 8_000_000 // Alt çizgilerle okunabilir hale getirildi.
 
 Çok Satırlı Stringler (Multiline Strings)
 
-Çok satırlı stringler üç tırnak işareti (""") ile tanımlanır. Ancak açılış ve kapanış tırnakları kendi satırlarında olmalıdır:
+Birden fazla satır içeren stringler oluşturmak için üç tırnak işareti (""") kullanılır.
 
 var multilinestr = """
 this is
@@ -30,7 +27,9 @@ multiline
 string
 """
 
-Eğer satır kırılmalarını istemiyorsanız, \ karakterini kullanabilirsiniz:
+Tek Satır Haline Getirme:
+
+Satır kırılmalarını önlemek için \ kullanılabilir.
 
 var singleLineMulti = """
 this is \
@@ -40,14 +39,14 @@ one line
 
 Double ve Boolean Türleri
 
-Swift’te double ondalıklı sayılar, boolean ise doğru/yanlış değerler (true veya false) için kullanılır:
+Swift, ondalıklı sayılar için Double, mantıksal değerler için Boolean türlerini sağlar.
 
 var thisISDouble = 3.1415
 var isTrue = true
 
-Not:
+Önemli Not:
 
-Swift’te integer ve double türlerini doğrudan toplamak mümkün değildir:
+Farklı türleri (örneğin Double ve Integer) doğrudan toplamak mümkün değildir.
 
 var myDouble = 3.4
 var myInt = 3
@@ -56,7 +55,7 @@ var myInt = 3
 
 String İçerisinde Değişken Kullanımı (String Interpolation)
 
-Bir string içinde değişkenlerin veya ifadelerin sonucunu yerleştirmek için \(değişken) kullanılır:
+String’lere değişkenleri veya ifadeleri yerleştirmek için \(değişken) kullanılır.
 
 var score = 88
 var str = "My score is \(score)"
@@ -64,24 +63,34 @@ var result = "The test results are: \(str)"
 
 Sabitler (Constants)
 
-Sabitler let anahtar kelimesi ile tanımlanır. Değeri sonradan değiştirilemez:
+Sabitler let anahtar kelimesi ile tanımlanır ve bir kez tanımlandıktan sonra değiştirilemez.
 
 let pi = 3.14
 
 Tip Açıklamaları (Type Annotations)
 
-Swift genellikle tip çıkarımı (type inference) yaparak değişkenlerin türünü otomatik belirler. Ancak türü açıkça belirtmek de mümkündür:
+Swift, tip çıkarımı yapabilir, ancak türü açıkça belirtmek de mümkündür.
+
+Temel Türler:
 
 var thisInt: Int = 3
 var thisDouble: Double = 3.14
 var myString: String = "Hello"
 var myBool: Bool = true
 
-Dizi türleri için de benzer bir şekilde tip açıklaması yapılabilir:
+Diziler:
 
 var myArray: [Int] = [1, 2, 3, 4, 5]
 var mySingleArray: [Int] = [1]
 
-Bu yazıda Swift’te değişkenler, sabitler ve veri türlerine giriş yaptık. Gelecekte daha derin konularla devam edeceğiz. Takipte kalın!
+Genel Bakış
 
-Bu versiyon, her konuyu ayrı bir başlık olarak düzenler ve okunabilirliği artırır. Tek bir markdown dosyasına uygun olarak hazırlanmıştır.
+	•	Değişkenler: var ile tanımlanır.
+	•	Çok Satırlı Stringler: Üç tırnak işareti (""") ile oluşturulur.
+	•	Double ve Boolean: Ondalıklı sayılar ve mantıksal ifadeler için kullanılır.
+	•	String Interpolation: String’lerde değişkenleri veya ifadeleri göstermek için kullanılır.
+	•	Sabitler: let ile tanımlanır ve değiştirilemez.
+	•	Tip Açıklamaları: Türü açıkça belirtmek mümkündür.
+
+Bu yazıda Swift’in temel yapı taşlarını öğrendik. Daha fazla konu için takipte kalın!
+
