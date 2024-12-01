@@ -1,4 +1,3 @@
-I'll update the markdown to include more carefully matched emojis that align with the spirit of the Swift example you provided.
 
 # Swift Operators and Conditions 🚀
 
