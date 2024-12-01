@@ -36,20 +36,20 @@ Sets are unordered collections of unique values with some powerful features.
 var colors = Set(["Red", "Blue", "Yellow", "Red"])
 ```
 
-### Set Insertion: A Closer Look
-The `insert()` method is particularly interesting because it returns a tuple with two valuable pieces of information:
+### Set Insertion Mechanism
+The `insert()` method returns a tuple with two important pieces of information:
 
 ```swift
 let (inserted, memberAfterInsert) = colors.insert("Orange")
 ```
 
-**Deep Dive into `insert()` Method:**
+**Detailed `insert()` Method Breakdown:**
 - `inserted`: A boolean value 
-  - `true` if the item was successfully added (didn't already exist)
-  - `false` if the item was already in the set
-- `memberAfterInsert`: The actual item that was inserted or already existed
+  - `true` if the item was successfully added (new)
+  - `false` if the item already existed in the set
+- `memberAfterInsert`: The actual item that was inserted or already present
 
-**Example Demonstration:**
+**Practical Example:**
 ```swift
 let (wasInserted, finalValue) = colors.insert("Purple")
 print(wasInserted)        // true (Purple was new)
@@ -69,20 +69,38 @@ print(existingValue)      // "Purple"
   - Performing set operations (union, intersection)
 
 ## 🔒 Tuples
-Tuples are fixed-size collections with potential named elements.
+Tuples are immutable collections that group multiple values into a single compound value.
 
+### Basic Tuple Creation
 ```swift
 var name = (first: "Kasim", last: "Deliaci")
-print(name.0)        // "Kasim"
-print(name.first)    // "Kasim"
-name.0 = "Yunus"     // Allowed
 ```
 
-**⚠️ Warning:** Cannot change tuple structure or types after creation
-
-### Tuple Advanced Usage
+### Accessing Tuple Values
 ```swift
-// Multiple return values
+print(name.0)        // Accessing by index: "Kasim"
+print(name.first)    // Accessing by name: "Kasim"
+```
+
+### Tuple Flexibility and Limitations
+
+#### Allowed Operations
+```swift
+// Modify individual values
+name.first = "Yunus"    // ✅ Allowed
+name.last = "Yilmaz"    // ✅ Allowed
+```
+
+#### Restricted Operations
+```swift
+// ❌ NOT Allowed: Cannot change structure or types
+// name = (first: "Kasim", age: 21)  // Compilation Error!
+// name.middleName = "Can"           // Cannot add new elements
+```
+
+### Tuple Use Cases
+```swift
+// Returning multiple values from a function
 func getUserInfo() -> (name: String, age: Int, isActive: Bool) {
     return ("John Doe", 30, true)
 }
@@ -92,6 +110,15 @@ let (username, userAge, _) = getUserInfo()
 
 ## 📖 Dictionaries
 Dictionaries store key-value pairs for flexible data representation.
+
+```swift
+let heights = [
+    "Taylor Swift": 1.78,
+    "Ed Sheeran": 1.74,
+    "Bruno Mars": 1.65
+]
+print(heights["Taylor Swift"])
+```
 
 ### Dictionary Features
 - Access values using keys
@@ -110,7 +137,6 @@ let flavor = favoriteIceCream["Mustafa", default: "Unknown flavor"]
 
 ### Dictionary Methods
 ```swift
-// Useful dictionary operations
 var scores = ["Alice": 95, "Bob": 80]
 scores.removeValue(forKey: "Bob")  // Removes and returns the value
 scores.updateValue(100, forKey: "Alice")  // Updates value, returns old value
@@ -129,7 +155,18 @@ var scores: [String: Int] = [:]
 ## 🏷️ Enumerations (Enums)
 Enums define groups of related values with additional capabilities.
 
+### Basic Enum
+```swift
+enum Result {
+    case win
+    case lost
+    case draw
+}
+let result = Result.win
+```
+
 ### Enum with Associated Values
+We may want to store additional information about the cases.
 ```swift
 enum Activity {
     case bored
@@ -151,9 +188,10 @@ default:
 ```
 
 ### Enum Raw Values
+we can have rawvalues for our cases making it more meaningful for everybody
 ```swift
 enum Planet: Int {
-    case mercury = 1  // Explicitly set first value
+    case mercury = 1  // Explicitly set first value, for dynamic creation
     case venus
     case earth
     case mars
@@ -162,10 +200,15 @@ enum Planet: Int {
 let earthRawValue = Planet.earth.rawValue  // 3
 let specificPlanet = Planet(rawValue: 2)   // venus
 ```
+⚠️ if you dont explicitly set the firsr value it will count from 0
 
-## 🚀 Advanced Considerations
-- Use `Set` when order doesn't matter and uniqueness is key
-- Prefer tuples for small, fixed collections of related values
-- Leverage enum associated values for complex state representations
+## 🚀 Key Takeaways
+- Arrays: Ordered, indexed collections
+- Sets: Unique, unordered collections
+- Tuples: Fixed-size, potentially named collections
+- Dictionaries: Key-value pair collections
+- Enums: Structured, type-safe grouping of related values
 
 **Pro Tip:** Each collection type has its strengths. Choose wisely based on your specific use case!
+
+**Happy Coding!** Mastering these data types will elevate your Swift programming skills to the next level. 🍏📱
