@@ -101,4 +101,3 @@ var mySingleArray: [Int] = [1]
 - Leverage Swift's type safety to write more robust code
 - Take advantage of string interpolation for clean, readable string formatting
 
-**Happy Coding!** Swift is a modern, safe, and expressive language that makes iOS and macOS development a joy. Keep exploring and learning!
