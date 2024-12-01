@@ -18,7 +18,7 @@ var quotient = firstScore / secondScore   // 3
 var remainder = 13 % 3                    // 1
 ```
 
-**⚠️ Important Note:** Swift enforces strict type safety. You cannot directly perform arithmetic operations between different numeric types (e.g., mixing Double and Int). < br / >
+**⚠️ Important Note:** Swift enforces strict type safety. You cannot directly perform arithmetic operations between different numeric types (e.g., mixing Double and Int). <br />
 **📝Note:** Swift also has a .isMultipleOf(of: Int ) function to check if a number is mutiple of something.
 
 
