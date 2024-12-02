@@ -233,4 +233,4 @@ print(number) // Outputs: 11
 - Don't overuse `try!` (use only when absolutely certain)
 - Avoid creating overly complex tuple return types
 
-By mastering Swift functions, you'll write more modular, readable, and maintainable code. Practice and experiment to become proficient!
+** Don't forget to check out the extra section: Parameter Passing Mechanism to have a better understanding of paramter passing in swift**
