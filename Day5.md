@@ -226,6 +226,10 @@ print(number) // Outputs: 11
 - Use parameter labels to improve code readability
 - Utilize tuples for returning multiple related values
 
+**Don't forget to check out the extra section: [Parameter Passing Mechanism](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5_Param_Passing_Mechanism.md) to have a better understanding of parameter passing in swift**
+
+Would you like me to add this line to the end of the markdown document, perhaps in the "Pro Developer Tips" or "Key Takeaways" section?
+
 ## ⚠️ Common Pitfalls
 - Parameters are constants by default
 - Always handle potential errors in throwing functions
@@ -233,4 +237,4 @@ print(number) // Outputs: 11
 - Don't overuse `try!` (use only when absolutely certain)
 - Avoid creating overly complex tuple return types
 
-** Don't forget to check out the extra section: Parameter Passing Mechanism to have a better understanding of paramter passing in swift**
+
