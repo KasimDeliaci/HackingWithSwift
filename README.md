@@ -10,9 +10,9 @@ This repository documents my daily journey learning the Swift programming langua
    - [Apple Documentation: The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
 2. **Day 2: Complex Data Types**
-   - Detailed explanations of basic data types, type safety, and type casting.
-   - [Day2](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day2.md)
-   - [Apple Documentation: The Swift Programming Language - Types](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
+   - Swift’s complex data types, focusing on arrays and sets, their characteristics, type annotations, and manipulation methods
+   - [Day 2: Collections](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day2.md)
+   - [Apple Documentation: Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/)
 
 3. **Day 3: Collection Types**
    - Usage and differences between Arrays, Sets, and Dictionaries.
