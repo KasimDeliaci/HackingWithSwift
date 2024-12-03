@@ -18,7 +18,6 @@ This repository documents my daily journey learning the Swift programming langua
    - Swift’s operators and control flow mechanisms, covering arithmetic operations, operator overloading, compound assignment, comparison operators, conditions, and logical operators, all essential for effective decision-making in code.
    - [Day 3: Operators and Conditions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day3.md)
    - [Apple Documentation: Basic Operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/)
-   - [Apple Documentation: Control Flow](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/)
 
 4. **Day 4: Loops**
    - Swift’s loop constructs—for, while, and repeat-while loops—demonstrating their use in iterating over ranges and collections, and managing control flow based on conditions.
