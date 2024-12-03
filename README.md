@@ -6,12 +6,12 @@ This repository documents my daily journey learning the Swift programming langua
 
 1. **Day 1: Variables and Constants**
    - Overview of variable and constant declarations in Swift, data types, and basic usage examples.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day1_Variables_Constants.md)
+   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day1.md)
    - [Apple Documentation: The Swift Programming Language - Declarations](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html)
 
 2. **Day 2: Data Types and Type Casting**
    - Detailed explanations of basic data types, type safety, and type casting.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day2_DataTypes_TypeCasting.md)
+   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day2.md)
    - [Apple Documentation: The Swift Programming Language - Types](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)
 
 3. **Day 3: Collection Types**
