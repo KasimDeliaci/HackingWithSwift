@@ -1,4 +1,4 @@
-# HackingWithSwift: Swift Learning Journal
+# Swift Learning Journal 🚀
 
 This repository documents my daily journey learning the Swift programming language. Each day, I explore a different topic, providing in-depth explanations and practical examples.
 
@@ -53,8 +53,6 @@ This repository documents my daily journey learning the Swift programming langua
     - Protocol extensions, generics, and other advanced topics.
     - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day10_AdvancedTopics.md)
     - [Apple Documentation: The Swift Programming Language - Generics](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)
-
-Each day's content includes detailed explanations, example code, and links to relevant Apple documentation. This structure aims to make your Swift learning process more efficient and organized.
 
 ---
 
