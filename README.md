@@ -29,9 +29,9 @@ This repository documents my daily journey learning the Swift programming langua
    - [Day 5: Functions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5.md)
    - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/)
   
-6. **Day 5 Part 2: Parameter Passing Mechanism**
+6. **Day 5 EXTRA: Parameter Passing Mechanism**
    - Swift’s parameter passing mechanisms, focusing on the use of inout parameters to allow functions to modify variables directly, thereby enabling pass-by-reference behavior
-   - [Day 5 Part 2: Parameter Passing Mechanism](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5_Param_Passing_Mechanism.md)
+   - [Day 5: Parameter Passing Mechanism](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5_Param_Passing_Mechanism.md)
    - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/)
 
 
