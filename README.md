@@ -34,9 +34,9 @@ This repository documents my daily journey learning the Swift programming langua
    - [Day 5: Parameter Passing Mechanism](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day5_Param_Passing_Mechanism.md)
    - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/)
   
-7. **Day 6: Closures: Part One**
+7. **Day 6: Closures - Part One**
    - Swift’s closure expressions, exploring their syntax, capturing values, and practical applications within the language.
-   - [Day 6: Closures Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day5.md)
+   - [Day 6: Closures - Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day5.md)
    - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
 
 
