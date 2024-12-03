@@ -14,45 +14,27 @@ This repository documents my daily journey learning the Swift programming langua
    - [Day 2: Collections](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day2.md)
    - [Apple Documentation: Collection Types](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes/)
 
-3. **Day 3: Collection Types**
-   - Usage and differences between Arrays, Sets, and Dictionaries.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day3_Collections.md)
-   - [Apple Documentation: The Swift Programming Language - Collection Types](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+3. **Day 3: Control Flow**
+   - Swift’s operators and control flow mechanisms, covering arithmetic operations, operator overloading, compound assignment, comparison operators, conditions, and logical operators, all essential for effective decision-making in code.
+   - [Day 3: Operators and Conditions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day3.md)
+   - [Apple Documentation: Basic Operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/)
+   - [Apple Documentation: Control Flow](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/)
 
-4. **Day 4: Control Flow**
-   - Managing control flow with if-else, guard, switch statements, and loops.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day4_ControlFlow.md)
-   - [Apple Documentation: The Swift Programming Language - Control Flow](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html)
+4. **Day 4: Loops**
+   - Swift’s loop constructs—for, while, and repeat-while loops—demonstrating their use in iterating over ranges and collections, and managing control flow based on conditions.
+   - [Day 4: Loops](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day4.md)
+   - [Apple Documentation: Control Flow](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/controlflow/)
 
 5. **Day 5: Functions**
-   - Function declarations, parameters, return values, and nested functions.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5_Functions.md)
-   - [Apple Documentation: The Swift Programming Language - Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+   - Swift functions, covering their declaration, parameter usage, return values, and the ability to return multiple values using tuples.
+   - [Day 5: Functions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5.md)
+   - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/)
+  
+6. **Day 5 Part 2: Parameter Passing Mechanism**
+   - Swift’s parameter passing mechanisms, focusing on the use of inout parameters to allow functions to modify variables directly, thereby enabling pass-by-reference behavior
+   - [Day 5 Part 2: Parameter Passing Mechanism](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day5_Param_Passing_Mechanism.md)
+   - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/functions/)
 
-6. **Day 6: Closures**
-   - Closure expressions, their use cases, and syntax details.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day6_Closures.md)
-   - [Apple Documentation: The Swift Programming Language - Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
-
-7. **Day 7: Object-Oriented Programming**
-   - Fundamentals of object-oriented programming with classes, structs, enums, and protocols.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day7_OOP.md)
-   - [Apple Documentation: The Swift Programming Language - Classes and Structures](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
-
-8. **Day 8: Memory Management and ARC**
-   - Memory management using Automatic Reference Counting (ARC), strong and weak references.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day8_MemoryManagement.md)
-   - [Apple Documentation: The Swift Programming Language - Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html)
-
-9. **Day 9: Error Handling**
-   - Catching and managing errors using do-try-catch statements.
-   - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day9_ErrorHandling.md)
-   - [Apple Documentation: The Swift Programming Language - Error Handling](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html)
-
-10. **Day 10: Advanced Topics**
-    - Protocol extensions, generics, and other advanced topics.
-    - [Markdown File](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day10_AdvancedTopics.md)
-    - [Apple Documentation: The Swift Programming Language - Generics](https://docs.swift.org/swift-book/LanguageGuide/Generics.html)
 
 ---
 
