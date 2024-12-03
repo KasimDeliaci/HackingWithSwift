@@ -58,7 +58,7 @@ print(originalPerson.name)  // Prints "Bob"
 
 ### 🔄 Default Passing Behavior
 - **Value Types:** Copied by default
-- **Reference Types (Class Instances):** Reference is copied, pointing to same instance
+- **Reference Types:** Reference is copied, pointing to same instance
 
 ```swift
 func modifyValue(_ x: Int) {
