@@ -6,7 +6,7 @@ This repository documents my daily journey learning the Swift programming langua
 
 1. **Day 1: Variables and Constants**
    - Overview of Swift’s fundamental concepts, including variable and constant declarations, data types, type safety, and basic string manipulations
-   - [Day1: Introduction to Swift](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day1.md)
+   - [Day 1: Introduction to Swift](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Day1.md)
    - [Apple Documentation: The Basics](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/)
 
 2. **Day 2: Complex Data Types**
