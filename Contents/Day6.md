@@ -76,7 +76,7 @@ func travelTrailing(action: () -> Void) {
 }
 
 // Trailing closure syntax
-travelTrailing { // notice we didnt parameters when calling
+travelTrailing { // notice we didnt give it a parameter when calling the function
     print("I am swimming in the sea.")
 }
 ```
