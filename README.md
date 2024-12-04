@@ -37,8 +37,12 @@ This repository documents my daily journey learning the Swift programming langua
 7. **Day 6: Closures - Part One**
    - Swift’s closure expressions, exploring their syntax, capturing values, and practical applications within the language.
    - [Day 6: Closures - Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day6.md)
-   - [Apple Documentation: Functions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
-
+   - [Apple Documentation: Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
+  
+8. **Day 7: Closures - Part Two**
+   - Swift’s closures, advanced syntax, capturing values, returning closures, and practical applications within the language.
+   - [Day 7: Closures - Part Two](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day7.md)
+   - [Apple Documentation: Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
 
 ---
 
