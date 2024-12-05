@@ -84,7 +84,7 @@ print(istanbul.collectTaxes())  // Calculates tax revenue
 
 ### Understanding Struct Mutability
 
-When you create a struct in Swift, the language takes a cautious approach to modifications. By default, methods cannot change a struct's properties if the struct instance is declared as a constant.
+When you create a struct in Swift, the language takes a cautious approach to modifications. By default, methods cannot change a struct's properties if the struct instance is declared as a constant. However, Swift does not not if you are gonna declare it as variable so it takes the safe approach requires you to have a mutating keyword to change properties.
 
 ```swift
 struct Person {
