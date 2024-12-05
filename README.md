@@ -43,6 +43,11 @@ This repository documents my daily journey learning the Swift programming langua
    - Swift’s closures, advanced syntax, capturing values, returning closures, and practical applications within the language.
    - [Day 7: Closures - Part Two](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day7.md)
    - [Apple Documentation: Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
+  
+9. **Day 8: Structs - Part One**
+   - Swift’s structures, covering their definition, stored and computed properties, methods, and the distinctions between structures and classes.
+   - [Day 8: Structs - Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Da87.md)
+   - [Apple Documentation: Structs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
 
 ---
 
