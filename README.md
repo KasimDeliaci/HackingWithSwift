@@ -45,7 +45,7 @@ This repository documents my daily journey learning the Swift programming langua
    - [Apple Documentation: Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)
   
 9. **Day 8: Structs - Part One**
-   - Swift’s structures, covering their definition, stored and computed properties, methods, and the distinctions between structures and classes.
+   - Swift’s structures, covering their definition, stored and computed properties, methods.
    - [Day 8: Structs - Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Da87.md)
    - [Apple Documentation: Structs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
 
