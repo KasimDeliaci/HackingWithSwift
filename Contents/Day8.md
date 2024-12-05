@@ -130,7 +130,7 @@ let constantPerson = Person(name: "Jane")
 - The `mutating` keyword stops method calls on constant structs
 - Even if the method doesn't actually change anything, marking it `mutating` prevents its use on constants
 
-###⚠️ Mutation Pitfalls
+**⚠️ Mutation Pitfalls**
 - Overusing mutating methods can lead to less predictable code
 - Creating complex mutation logic can make code harder to understand
 - Always consider whether mutation is the best approach
