@@ -48,11 +48,6 @@ This repository documents my daily journey learning the Swift programming langua
    - Swift’s structures, covering their definition, stored and computed properties, methods.
    - [Day 8: Structs - Part One](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Da8.md)
    - [Apple Documentation: Structs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
-  
-11.**adkasld*
-   - ailksd
-   - d ssdğ
-   - ilskdmca
 
 10. **Day 9: Structs - Part Two**
    - Swift’s advanced struct features, including custom initializers, the self keyword, lazy properties, and access control mechanisms, providing insights into sophisticated struct design and property management.
