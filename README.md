@@ -50,7 +50,7 @@ This repository documents my daily journey learning the Swift programming langua
    - [Apple Documentation: Structs](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
 
 10. **Day 9: Structs - Part Two**
-   - Swift’s advanced struct features, including custom initializers, the self keyword, lazy properties, and access control mechanisms, providing       insights into sophisticated struct design and property management
+   - Swift’s advanced struct features, including custom initializers, the self keyword, lazy properties, and access control mechanisms, providing insights into sophisticated struct design and property management.
    - [Day 9: Structs - Part Two](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Da9.md)
    - [Apple Documentation: Inıtalization](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/initialization/)
    - [Apple Documentation: Properties](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/)
