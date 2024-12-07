@@ -67,7 +67,12 @@ This repository documents my daily journey learning the Swift programming langua
     - [Day 11: Protocols and Extensions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day11.md)
     - [Apple Documentation: Protocols](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/)
     - [Apple Documentation: Extensions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/extensions/)
-     
+   
+13. **Day 12: Optionals**
+    - Swift's optionals, detailing their role in handling the absence of values, the concept of optional binding, and techniques for safely unwrapping optionals.
+    - [Day 12: Optionals](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day12.md)
+    - [Apple Documentation: Optionals](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Optionals)
+    - [Apple Documentation: Optional Chaining](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/optionalchaining)
 ---
 
 **Note:** This repository is inspired by the [Hacking with Swift](https://www.hackingwithswift.com/) series. For more information and resources, visit [Apple's Swift Documentation](https://developer.apple.com/documentation/swift).
