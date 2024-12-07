@@ -58,9 +58,9 @@ This repository documents my daily journey learning the Swift programming langua
       - [Apple Documentation: Access Control](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/)
         
 11. **Day 10: Classes**
-   - Explores Swift's classes, highlighting their distinctions from structures, including inheritance, reference semantics, and deinitializers, and provides guidance on class declaration, initialization, and inheritance.
-   - [Day 10: Classes](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day10.md)
-   - [Apple Documentation: Classes and Structures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
+    - Swift's classes, highlighting their distinctions from structures, including inheritance, reference semantics, and deinitializers, and provides guidance on class declaration, initialization, and inheritance.
+    - [Day 10: Classes](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day10.md)
+    - [Apple Documentation: Classes and Structures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
      
 ---
 
