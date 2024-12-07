@@ -61,6 +61,12 @@ This repository documents my daily journey learning the Swift programming langua
     - Swift's classes, highlighting their distinctions from structures, including inheritance, reference semantics, and deinitializers, and provides guidance on class declaration, initialization, and inheritance.
     - [Day 10: Classes](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day10.md)
     - [Apple Documentation: Classes and Structures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/)
+   
+12. **Day 11: Protocols and Extensions**
+    - Swift's protocols, which define blueprints for methods and properties, and extensions, which add functionality to existing types, including protocol conformance.
+    - [Day 11: Protocols and Extensions](https://github.com/KasimDeliaci/HackingWithSwift/blob/main/Contents/Day11.md)
+    - [Apple Documentation: Protocols](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/)
+    - [Apple Documentation: Extensions](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/extensions/)
      
 ---
 
